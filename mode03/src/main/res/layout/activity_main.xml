@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:background="@drawable/brckgroun"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="APK下载地址https://alissl.ucdl.pp.uc.cn/fs08/2017/.apk"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="开始下载"
+        android:id="@+id/bnt_xz"
+        android:background="@drawable/brckgroun"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:id="@+id/pro_main"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="下载进程0%"
+        android:textSize="15dp"
+        android:id="@+id/et_count"
+        android:layout_gravity="right"
+        android:gravity="right"/>
+
+</LinearLayout>

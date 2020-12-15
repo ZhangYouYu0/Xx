@@ -1,0 +1,8 @@
+rootProject.name='ceshi1'
+include ':app'
+include ':moded'
+include ':mode01'
+include ':mode02'
+include ':moni'
+include ':mode03'
+include ':moni01'
